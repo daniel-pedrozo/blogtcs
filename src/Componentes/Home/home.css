@@ -1,0 +1,28 @@
+:root {
+    --preto: #080808;
+    --branco: #f8f8ff;
+    --vermelho: #860111;
+    --azul: #018676;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste a altura conforme necessário */
+}
+
+.conteudo {
+    text-align: left;
+    padding: 20px;
+    max-width: 800px;
+    min-width: 300px;
+}
